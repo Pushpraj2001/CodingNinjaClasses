@@ -1,4 +1,3 @@
-package lib;
 // Your First Program
 
 public class Hello {

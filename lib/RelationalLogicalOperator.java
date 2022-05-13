@@ -1,3 +1,5 @@
+package lib;
+
 public class RelationalLogicalOperator{
     public static void main(String[] args) {
         // Relational Operator 
@@ -18,8 +20,7 @@ public class RelationalLogicalOperator{
         System.out.println(a>= 10 && b>=20);
         System.out.println(a>= 10 || b>=20);
         System.out.println(!true);
-        byte c=50;
-        c= c*50;
+       
 
     }
 }
