@@ -4,16 +4,12 @@ package lib;
 public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello, World!"); 
-        int a=50;
-    int b=Integer.MIN_VALUE;
-    if(a/0==b)
-    {
-
-        System.out.println("Hello");
-    }
-    else
-    {
-        System.out.println("Hi");
-    }
+        int i=0;
+        while(i<10)
+        {
+            i=i+1;
+            System.out.print(i);
+            i=i+1;
+        }
     }
 }
