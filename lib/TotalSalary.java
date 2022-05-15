@@ -45,10 +45,10 @@ public class TotalSalary {
         String str = sc.next();
         char grade = str.charAt(0);
         int allow ;
-        if (grade==65) {
+        if (grade=='A') {
             // allow = 1700 if grade = ‘A’
             allow = 1700;
-        } else if (grade == 67){
+        } else if (grade == 'B'){
             // allow = 1500 if grade = ‘B’
             allow = 1500;
         }else{
@@ -56,9 +56,9 @@ public class TotalSalary {
             allow = 1300;
         }
         double totalSalary = ((basic +(0.20*basic)+ (0.50*basic)+allow)-(0.11*basic));
-        double pf = Math.round(totalSalary);
-        int hra = (int)(pf);
-        System.out.println(hra);
+        int total = (int) (totalSalary);
+       
+        System.out.println(total);
         
     }
 }
