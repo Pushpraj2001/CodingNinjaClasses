@@ -1,8 +1,7 @@
-package lib;
+package Fundamental;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthSeparatorUI;
 
 public class CheckPrime{
 public static void main(String[] args) {

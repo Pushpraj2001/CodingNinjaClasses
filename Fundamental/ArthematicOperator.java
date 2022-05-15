@@ -1,4 +1,4 @@
-package lib;
+package Fundamental;
 import java.util.Scanner;
 public class ArthematicOperator {
     public static void main(String[] args) {

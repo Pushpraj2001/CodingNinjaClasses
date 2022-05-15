@@ -1,4 +1,4 @@
-package lib;
+package Fundamental;
 
 import java.util.Scanner;
 
