@@ -1,4 +1,4 @@
-package lib;
+package Pattern;
 
 import java.util.Scanner;
 /*1 2 3 4 5 6 
