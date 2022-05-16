@@ -1,24 +1,27 @@
 package Pattern;
 
 import java.util.Scanner;
+/*ABCDEF
+BCDEFG
+CDEFGH
+DEFGHI
+EFGHIJ
+FGHIJK*/
 
-/*1
-23
-456
-78910*/
-public class Pattern6 {
+public class AlphaPattern2 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         int row = 1;
-        int p = 1;
         while (row <= n) {
             int col = 1;
-            while (col <= row) {
-                System.out.print(p);
+            char p = (char) ('A' + row - 1);
+            while (col <= n) {
 
+                System.out.print(p);
+                p = (char) (p+1);
                 col = col + 1;
-                p = p + 1;
+
             }
             System.out.println();
             row = row + 1;
