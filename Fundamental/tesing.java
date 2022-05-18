@@ -1,16 +1,20 @@
-package lib;
+package Fundamental;
 
 import java.util.Scanner;
 
 public class tesing {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-
-        int i = 10;
-        while ((i = i - 1) > 0) {
-            System.out.print(i);
-            if (i % 5 == 0)
-                return;
-        }
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int i,j;  
+        for(i=1;i<=n;i++){// this loop is used to print the n  
+           for(j=n;j>=1;j--){// this loop is used to print numbers in a line  
+               if(j!=i)  
+                System.out.print(j);  
+                else  
+                 System.out.print("*");  
+        }   
+        System.out.println("");  
+        }  
     }
 }
