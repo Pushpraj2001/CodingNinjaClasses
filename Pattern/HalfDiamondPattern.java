@@ -19,6 +19,7 @@ public class HalfDiamondPattern {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int row, col;
+        System.out.println('*');
         for (row = 1; row<=n; row++){
             System.out.print('*');
             for (col=1; col<=row; col++) {
